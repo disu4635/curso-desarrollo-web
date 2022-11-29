@@ -1,6 +1,97 @@
-html{
+*{
     margin: 0;
     padding: 0;
-    background-color: #282A3A;
-    color: white;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
 }
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border-style: solid;
+    width: 100vh;
+    height: 98vh;
+    margin-top: 1vh;
+}
+
+header{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.PictureContainer{
+    margin-top: 10px;
+}
+
+.PerfilPicture{
+    height: 100%;
+    width: 20%;
+}
+
+main{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo{
+    background-color: #767070;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+
+.DatosPersonales{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 50%;
+}
+
+.DTListContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Titlelist{
+    color: #767070;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 15px;
+}
+
+
+
+.PerfilTextContainer{
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.FormacionContainer{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
