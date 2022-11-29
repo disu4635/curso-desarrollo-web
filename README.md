@@ -1,5 +1,5 @@
-# curso-desarrollo-web
+# Materia-desarrollo-web
 
-# Unidad 1: Ejercicio HTML (Hoja de vida)
+# Este repositorio contendra todos los trabajos desarrollados durante el curso separados por ramas
 
-# Integrantes: David Alejandro Espinosa Suarez 218034125 | Andres Felipe Martinez Salazar 218034219
+# Ramas actuales: "Ejercicio-HTML"
