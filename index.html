@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="card-header">Hoja de vida</h1>
+        <form method="post" class="form" id="form">
+          <div class="input-container">
+            <label for="name">Nombre </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="input-container">
+            <label for="age">Edad </label>
+            <input type="number" name="age" id="age" required />
+          </div>
+          <div class="input-container">
+            <label for="profession">Profesión </label>
+            <input type="text" name="profession" id="profession" required />
+          </div>
+          <button type="submit" class="btn-validate">Validar</button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
