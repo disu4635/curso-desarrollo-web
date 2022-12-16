@@ -10,3 +10,5 @@ Este repositorio contiene todos los trabajos desarrollados durante la materia de
 ### Unidad 1:
  - [Ejercicio HTML y CSS](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio-HTML)
  - [Ejercicio JavaScript](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio-JS)
+ ### Unidad 2:
+ - [Ejercicio POO](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio-POO)
