@@ -1,0 +1,16 @@
+<h1>Calculadora</h1>
+<form method="get">
+    <input type="number" step='any' name="operand1" value={{operand1}}>
+    <select name="operator">
+        <option value="+" {% if operator == '+' %}selected{% endif %} >+</option>
+        <option value="-" {% if operator == '-' %}selected{% endif %} >-</option>
+        <option value="*" {% if operator == '*' %}selected{% endif %} >*</option>
+        <option value="/" {% if operator == '/' %}selected{% endif %} >/</option>
+      </select>
+    <input type="number" step='any' name="operand2" value={{operand2}}>
+    <button type="submit">Submit</button>
+  </form>
+  
+  {% if result is not None %}
+    <p>Resultado: {{ result }}</p>
+  {% endif %}
