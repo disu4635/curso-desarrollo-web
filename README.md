@@ -12,3 +12,5 @@ Este repositorio contiene todos los trabajos desarrollados durante la materia de
  - [Ejercicio JavaScript](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio-JS)
  ### Unidad 2:
  - [Ejercicio POO](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio-POO)
+ ### Unidad 5:
+ - [Ejercicio Calculadora con Django](https://github.com/disu4635/curso-desarrollo-web/tree/Ejercicio_calculadora_diango)
